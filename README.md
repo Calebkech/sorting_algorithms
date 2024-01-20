@@ -15,8 +15,9 @@ Function Prototypes:
 | File                       | Prototype                                         |
 | -------------------------- | ------------------------------------------------- |
 | `print_array.c`            | `void print_array(const int *array, size_t size)` |
-| `print_list.c`             |  `void print_list(const listint_t *list)`         |
+| `print_list.c`             | `void print_list(const listint_t *list)`          |
 | `0-bubble_sort.c`          | `void bubble_sort(int *array, size_t size);`      |
+| `2-selection_sort.c`       | `void selection_sort(int *array, size_t size);`   |
 
 ## Bubble Sort Algorithm
 
@@ -65,3 +66,46 @@ int main(void)
 * print_array prints the array after each swap.
 
 Feel free to adapt this brief Markdown file as needed. If you have any further questions or adjustments, let me know!.
+
+## Selection Sort Algorithm Implementation
+
+This repository contains a simple implementation of the Selection Sort algorithm in C, along with a function to swap two integers. The code is organized into a header file (`sort.h`) and a source file (`sort.c`).
+
+## Files
+
+* `sort.h`: Header file containing function prototypes and any necessary includes.
+* `sort.c`: Source file containing the implementation of the Selection Sort algorithm and the integer swapping function.
+* `main.c`: Example usage or testing code (if applicable).
+
+## Usage
+
+To use the `selection_sort` function and `swap_nums` function in your C program, include the "sort.h" header file:
+
+`#include "sort.h"`
+
+## Functions
+
+`void swap_nums(int *a, int *b)`
+This function swaps the values of two integers.
+
+`void selection_sort(int *array, size_t size)`
+This function sorts an array of integers in ascending order using the Selection Sort algorithm. It includes a check for valid input (NULL array or array with less than 2 elements) and a custom swapping function.
+
+## Compilation
+
+`gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 2-main.c 2-selection_sort.c print_array.c -o select`
+
+## Example
+
+```
+#include "sort.h"
+
+int main() {
+    int arr[] = {4, 2, 7, 1, 9, 5};
+    size_t size = sizeof(arr) / sizeof(arr[0]);
+
+    selection_sort(arr, size);
+
+    return 0;
+}
+```
