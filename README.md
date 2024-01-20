@@ -1,5 +1,26 @@
 # C - Sorting algorithms & Big O
 
+## Team Members
+
+1. Caleb Kemboi
+2. Aymane Montassir
+
+## Project Overview
+
+This project involves implementing various sorting algorithms in the C programming language. The tasks are divided among the team members, and each member is responsible for specific parts of the project.
+
+## Coding Standards and Requirements
+
+- Allowed Editors: vi, vim, emacs
+- Compilation: Ubuntu 20.04 LTS using gcc with options -Wall -Werror -Wextra -pedantic -std=gnu89
+- Code Style: Betty style
+- No global variables allowed
+- Header file: sort.h for function prototypes
+- Maximum 5 functions per file
+- Do not use standard library functions unless specified otherwise
+
+## Sorting Algorithms Project
+
 In this project, we implemented several different sorting algorithms.
 
 ## Helper Files
