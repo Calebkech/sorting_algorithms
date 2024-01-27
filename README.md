@@ -254,3 +254,19 @@ in the average case
 in the worst case
 
 compile with `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 106-main.c 106-bitonic_sort.c print_array.c -o bitonic`
+
+## 11. Quick Sort - Hoare Partition scheme - files `107-quick_sort_hoare.c, 107-O, 107-main.c`
+
+Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+
+Prototype: `void quick_sort_hoare(int *array, size_t size);`
+You must implement the Hoare partition scheme.
+The pivot should always be the last element of the partition being sorted.
+You’re expected to print the array after each time you swap two elements (See example below)
+Write in the file 107-O, the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
+
+in the best case
+in the average case
+in the worst case
+
+compile with `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 107-main.c 107-quick_sort_hoare.c print_array.c -o quick`
