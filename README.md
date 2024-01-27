@@ -226,3 +226,14 @@ Write in the file 104-O, the big O notations of the time complexity of the Heap 
 in the best case
 in the average case
 in the worst case
+
+## 9. Radix sort - files `105-radix_sort.c, 105-main.c`
+
+Write a function that sorts an array of integers in ascending order using the Radix sort algorithm
+
+Prototype: `void radix_sort(int *array, size_t size);`
+You must implement the LSD radix sort algorithm
+You can assume that array will contain only numbers >= 0
+You are allowed to use malloc and free for this task
+You’re expected to print the array each time you increase your significant digit (See example below)
+compile `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 105-main.c 105-radix_sort.c print_array.c -o radix`
