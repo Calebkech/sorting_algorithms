@@ -140,9 +140,9 @@ You are not allowed to modify the integer n of a node. You have to swap the node
 You’re expected to print the list after each time you swap two elements (See example below)
 Write in the file 1-O, the big O notations of the time complexity of the Insertion sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
 ## 3. Quick sort - files `3-quick_sort.c, 3-O`
 
@@ -154,9 +154,9 @@ The pivot should always be the last element of the partition being sorted.
 You’re expected to print the array after each time you swap two elements (See example below)
 Write in the file 3-O, the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
 ## 4. Shell sort - Knuth Sequence - file `100-shell_sort.c`
 
@@ -178,9 +178,9 @@ You are not allowed to modify the integer n of a node. You have to swap the node
 You’re expected to print the list after each time you swap two elements (See example below)
 Write in the file 101-O, the big O notations of the time complexity of the Cocktail shaker sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
 ## 6. Counting sort - files `102-counting_sort.c, 102-O`
 
@@ -193,9 +193,9 @@ You’re expected to print your counting array once it is set up (See example be
 This array is of size k + 1 where k is the largest number in array
 Write in the file 102-O, the big O notations of the time complexity of the Counting sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
 ## 7. Merge sort - files `103-merge_sort.c, 103-O, 103-main.c`
 
@@ -210,9 +210,9 @@ You are allowed to use malloc and free only once (only one call)
 Output: see example
 Write in the file 103-O, the big O notations of the time complexity of the Merge sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
 ## 8. Heap sort - files `104-heap_sort.c, 104-O, 104-main.c`
 
@@ -223,20 +223,22 @@ You must implement the sift-down heap sort algorithm
 You’re expected to print the array after each time you swap two elements (See example below)
 Write in the file 104-O, the big O notations of the time complexity of the Heap sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
 ## 9. Radix sort - files `105-radix_sort.c, 105-main.c`
 
 Write a function that sorts an array of integers in ascending order using the Radix sort algorithm
 
 Prototype: `void radix_sort(int *array, size_t size);`
-You must implement the LSD radix sort algorithm
-You can assume that array will contain only numbers >= 0
-You are allowed to use malloc and free for this task
-You’re expected to print the array each time you increase your significant digit (See example below)
-compile `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 105-main.c 105-radix_sort.c print_array.c -o radix`
+
+- You must implement the LSD radix sort algorithm
+- You can assume that array will contain only numbers >= 0
+- You are allowed to use malloc and free for this task
+- You’re expected to print the array each time you increase your significant digit (See example below)
+
+compile with: `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 105-main.c 105-radix_sort.c print_array.c -o radix`
 
 ## 10. Bitonic sort - files `106-bitonic_sort.c, 106-O, 106-main.c`
 
@@ -249,11 +251,11 @@ You’re expected to print the array each time you swap two elements (See exampl
 Output: see example
 Write in the file 106-O, the big O notations of the time complexity of the Bitonic sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- the best case
+- in the average case
+- in the worst case
 
-compile with `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 106-main.c 106-bitonic_sort.c print_array.c -o bitonic`
+compile : `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 106-main.c 106-bitonic_sort.c print_array.c -o bitonic`
 
 ## 11. Quick Sort - Hoare Partition scheme - files `107-quick_sort_hoare.c, 107-O, 107-main.c`
 
@@ -265,9 +267,9 @@ The pivot should always be the last element of the partition being sorted.
 You’re expected to print the array after each time you swap two elements (See example below)
 Write in the file 107-O, the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
 
-in the best case
-in the average case
-in the worst case
+- in the best case
+- in the average case
+- in the worst case
 
 compile with `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 107-main.c 107-quick_sort_hoare.c print_array.c -o quick`
 
@@ -284,7 +286,8 @@ Each node of the doubly linked list contains a card that you cannot modify. You 
 You can assume there is exactly 52 elements in the doubly linked list.
 You are free to use the sorting algorithm of your choice
 The deck must be ordered:
-From Ace to King
-From Spades to Diamonds
+
+- From Ace to King
+- From Spades to Diamonds
 
 compile with: `gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 1000-main.c 1000-sort_deck.c -o deck`
